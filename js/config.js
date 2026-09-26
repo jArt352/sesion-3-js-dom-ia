@@ -1,11 +1,10 @@
 /*
  * Configuracion de la sesion.
- * IMPORTANTE: reemplazar REPOSITORY_URL con la URL real del repositorio
- * del proyecto de la clase antes de proyectar esta presentacion.
- * No se debe inventar ni dejar una URL de ejemplo real: hasta que se
- * configure, la diapositiva de portada mostrara una advertencia.
+ * REPOSITORY_URL debe apuntar al PROYECTO DE LA CLASE (el landing page
+ * con el formulario de contacto que los estudiantes clonan y modifican),
+ * NO al repositorio de esta presentacion.
  */
-const REPOSITORY_URL = "https://github.com/jArt352/sesion-3-js-dom-ia";
+const REPOSITORY_URL = "https://github.com/jArt352/landing-clase-contacto";
 
 const SESSION_CONFIG = {
     subject: "Desarrollo de software con ayuda de IA",

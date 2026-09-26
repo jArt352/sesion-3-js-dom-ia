@@ -197,15 +197,21 @@ const SLIDES = [
 {
     bloque: "Bloque 3 - Preparacion",
     title: "Clonar el proyecto",
+    subtitle: "El mismo proyecto del QR de la portada: el landing con el formulario de contacto",
     body: `
-        ${codeBlock('git clone URL\ncd proyecto\ncode .', "bash", "Terminal")}
+        <div class="card accent" style="margin-bottom:16px;">
+            <div class="card-title">Que vamos a clonar</div>
+            <p style="margin:0;">El landing page de la clase anterior: <code>index.html</code> y <code>styles.css</code>, con un formulario de contacto que hoy convertiremos en funcional. No es el repositorio de esta presentacion.</p>
+        </div>
+        ${codeBlock(`git clone ${SESSION_CONFIG.repositoryUrl}\ncd landing-clase-contacto\ncode .`, "bash", "Terminal")}
         <div class="grid-2" style="margin-top:12px;">
-            <div class="card"><div class="card-title"><code>git clone URL</code></div><p class="muted">Descarga una copia local del repositorio remoto.</p></div>
-            <div class="card"><div class="card-title"><code>cd proyecto</code></div><p class="muted">Entra a la carpeta del proyecto recien clonado.</p></div>
+            <div class="card"><div class="card-title"><code>git clone ...</code></div><p class="muted">Descarga una copia local del repositorio del proyecto.</p></div>
+            <div class="card"><div class="card-title"><code>cd landing-clase-contacto</code></div><p class="muted">Entra a la carpeta del proyecto recien clonado.</p></div>
         </div>
         <div class="card" style="margin-top:12px;"><div class="card-title"><code>code .</code></div><p class="muted">Abre la carpeta actual en Visual Studio Code.</p></div>
     `,
-    notes: noteBlock("Que comprobar", "Pide a cada estudiante que confirme visualmente index.html y styles.css dentro de VS Code antes de continuar.") +
+    notes: noteBlock("Que aclarar", "Este es el proyecto del QR de la diapositiva 1: el landing con el formulario visual, no la presentacion que estas proyectando.") +
+           noteBlock("Que comprobar", "Pide a cada estudiante que confirme visualmente index.html y styles.css dentro de VS Code antes de continuar.") +
            noteBlock("Uso de IA", "Si el comando 'code .' no funciona, pueden pedirle a la IA que explique como agregar VS Code al PATH del sistema.", "n-ia-yes")
 },
 
