@@ -5,7 +5,7 @@
  * No se debe inventar ni dejar una URL de ejemplo real: hasta que se
  * configure, la diapositiva de portada mostrara una advertencia.
  */
-const REPOSITORY_URL = "COLOCAR_AQUI_URL";
+const REPOSITORY_URL = "https://github.com/jArt352/sesion-3-js-dom-ia";
 
 const SESSION_CONFIG = {
     subject: "Desarrollo de software con ayuda de IA",
